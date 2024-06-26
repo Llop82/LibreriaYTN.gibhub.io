@@ -1,0 +1,862 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Luciano Herrera Ricardo">
+    <title>Prácticos</title>
+    <link rel="icon" href="Imagenes/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="Carr">
+            <a href="0. Index.html" class="Izq"><img src="Imagenes/Regresar.jpg" class="Ic"></a>
+            <a href="Carrito.html" class=" Der"><img src="Imagenes/Carrito.jpg" class="Ic"></a>
+        </div>
+        <div class="Catg">
+            <h1 class="Titulos">Prácticos</h1>
+        </div>
+    </header>
+    <section>
+        <article>
+            <!--Recetarios-->
+            <h1 class="Ti">Recetarios</h1>
+            <div class="slider-container" data-index="0">
+                <button class="slide-btn left" onclick="slideLeft(0)">&#10094;</button>
+                <div class="slider">
+                    <div class="slide-track">
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Recetarios/Recetario de la abuela.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Recetario de la abuela</h2>
+                                <h3 class="Aut">Elsie Mendéz Enríquez</h3>
+                                <p class="Price">$ 599</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Abuela()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Recetario de la abuela', 599)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Recetarios/Recetario hebreo.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Recetario hebreo</h2>
+                                <h3 class="Aut">Almudena Villegas</h3>
+                                <p class="Price">$ 830</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Hebreo()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Recetario hebreo',830)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Recetarios/Dieta mediterranea.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Dieta mediterranea</h2>
+                                <h3 class="Aut">Serena Rose</h3>
+                                <p class="Price">$ 259</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Dieta()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Dieta mediterranea',259)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Recetarios/Recetario de 40 papillas.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Recetario de 40 papillas</h2>
+                                <h3 class="Aut">Milena Yanes</h3>
+                                <p class="Price">$ 399</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Papillas()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Recetario de 40 papillas',399)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Recetarios/Recetario popular chileno.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Recetario popular chileno</h2>
+                                <h3 class="Aut">Alvaro Peralta</h3>
+                                <p class="Price">$ 239</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Chileno()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Recetario popular chileno',239)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Recetarios/Recetario para perder peso.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Recetario para perder peso</h2>
+                                <h3 class="Aut">Grace Robbins</h3>
+                                <p class="Price">$ 160</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Peso()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Recetario para perder peso',160)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Recetarios/Recetario para dieta.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Recetario para dieta alcalina</h2>
+                                <h3 class="Aut">Adidas Wilson</h3>
+                                <p class="Price">$ 179</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Alcalina()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Recetario para dieta alcalina',179)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Recetarios/Dieta sirtfood.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Dieta sirtfood</h2>
+                                <h3 class="Aut">Haley Joseph</h3>
+                                <p class="Price">$ 260</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Sirtfood()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Dieta sirtfood',260)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Recetarios/Recetas recetario para sartenes.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Recetas: recetario para sartenes</h2>
+                                <h3 class="Aut">Joe Williams</h3>
+                                <p class="Price">$ 260</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Sartenes()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito"
+                                    onclick="addToCart('Recetas: recetario para sartenes',260)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Recetarios/Dieta cetogenica.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Dieta cetogenica</h2>
+                                <h3 class="Aut">Eric Clark</h3>
+                                <p class="Price">$ 260</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Cetogenica()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Dieta cetogenica',260)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Recetarios/Libro defenitivo de licuados.jpg" class="
+                                    Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Libro defenitivo de licuados</h2>
+                                <h3 class="Aut">Jonh Kevin</h3>
+                                <p class="Price">$ 199</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Licuado()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Libro defenitivo de licuados',199)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Recetarios/Vegetariano dieta vegana.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Vegetariano: dieta vegana</h2>
+                                <h3 class="Aut">Jason Clint</h3>
+                                <p class="Price">$ 229</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Vegana()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Vegetariano: dieta vegana',229)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Recetarios/La revolucion de los 22 dias.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">La revolución de los 22 dias</h2>
+                                <h3 class="Aut">Marco Borges</h3>
+                                <p class="Price">$ 231</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Revolucion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('La revolución de los 22 dias',231)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Recetarios/Baking Reposteria.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Baking El libro de la Reposteria</h2>
+                                <h3 class="Aut">Rupard Benson</h3>
+                                <p class="Price">$ 179</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Reposteria()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito"
+                                    onclick="addToCart('Baking El libro de la Reposteria',179)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Recetarios/Recetario de cocteles.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Recetario de cocteles cubanos</h2>
+                                <h3 class="Aut">Ramón Pedreira</h3>
+                                <p class="Price">$ 195</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Cubanos()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Recetario de cocteles cubanos',195)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="slide-btn right" onclick="slideRight(0)">&#10095;</button>
+
+        </article> <br>
+        <!--Manuales-->
+        <article>
+            <h1 class="Ti">Manuales</h1>
+
+            <div class="slider-container" data-index="1">
+                <button class="slide-btn left" onclick="slideLeft(1)">&#10094;</button>
+                <div class="slider">
+                    <div class="slide-track">
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/El manual del emprendedor.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">El manual del emprendedor</h2>
+                                <h3 class="Aut">Steve Blank</h3>
+                                <p class="Price">$ 449</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Emprendedor()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('El manual del emprendedor', 449)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Cardiologia.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Cardiología</h2>
+                                <h3 class="Aut">Erick Alexanderson Rosas</h3>
+                                <p class="Price">$ 1,245</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Cardiología()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Cardiología',1245)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manual de derecho.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Manual de derecho procesal penal</h2>
+                                <h3 class="Aut">Juan Luis Gómez</h3>
+                                <p class="Price">$ 1,119</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Derecho()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito"
+                                    onclick="addToCart('Manual de derecho procesal penal',1119)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manual de electronica.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Manual de electrónica</h2>
+                                <h3 class="Aut">George Loveday</h3>
+                                <p class="Price">$ 419</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Electronica()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Manual de electrónica',419)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manual tecnico del vitral.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Manual técnico del vitral</h2>
+                                <h3 class="Aut">Vicente M. Sastrus</h3>
+                                <p class="Price">$ 399</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Vitral()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Manual técnico del vitral',399)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manual de practicas de psicoligia.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Manual de practicas de psicoligía</h2>
+                                <h3 class="Aut">Olga Loredo</h3>
+                                <p class="Price">$ 365</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Psicologia()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito"
+                                    onclick="addToCart('Manual de practicas de psicoligía',365)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Investigacion cualitativa.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Investigación cualitativa</h2>
+                                <h3 class="Aut">Miguel Mártinez</h3>
+                                <p class="Price">$ 349</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Cualitativa()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Investigación cualitativa',349)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manual de invernaderos.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Manual de invernaderos</h2>
+                                <h3 class="Aut">Shanti Lesur</h3>
+                                <p class="Price">$ 329</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Invernaderos()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Manual de invernaderos',329)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manual de negociacion.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Manual de negociación</h2>
+                                <h3 class="Aut">Andrea Cordell</h3>
+                                <p class="Price">$ 315</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Negociacion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Manual de negociación',315)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manual para iniciarse en la calidad.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Manual para iniciarse en la calidad</h2>
+                                <h3 class="Aut">Fernando Salvio</h3>
+                                <p class="Price">$ 389</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Calidad()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito"
+                                    onclick="addToCart('Manual para iniciarse en la calidad',389)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manual de contratos.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Manual de contratos civiles y mercantiles</h2>
+                                <h3 class="Aut">Gabriela Esperon</h3>
+                                <p class="Price">$ 465</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Mercantiles()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Materia y energía',465)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manual practico de estadistica.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Manual práctico de estadistica</h2>
+                                <h3 class="Aut">Luis Castilla Serna</h3>
+                                <p class="Price">$ 399</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Estadistica()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Manual práctico de estadistica',399)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manual basico de albañileria.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Manual basico de albañileria</h2>
+                                <h3 class="Aut">Shanti Lesur</h3>
+                                <p class="Price">$ 419</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Albañileria()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Manual basico de albañileria',419)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manual de diseño ecologico.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Manual de diseño ecológico</h2>
+                                <h3 class="Aut">Alison G. Kwok</h3>
+                                <p class="Price">$ 785</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Ecologico()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Manual de diseño ecológico',785)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manual de ortografia.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Manual de ortografía</h2>
+                                <h3 class="Aut">Josefina Abuadili</h3>
+                                <p class="Price">$ 235</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Ortografia()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Manual de ortografía',235)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="slide-btn right" onclick="slideRight(1)">&#10095;</button>
+
+        </article><br>
+
+        <article>
+            <br><br>
+            <div class="slider-container" data-index="2">
+                <button class="slide-btn left" onclick="slideLeft(2)">&#10094;</button>
+                <div class="slider">
+                    <div class="slide-track">
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manual de administracion.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Manual de administración</h2>
+                                <h3 class="Aut">Thomas Pyzdek</h3>
+                                <p class="Price">$ 529</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Manual de administración', 529)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manual practico de la litigacion.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Manual practico de la litigación</h2>
+                                <h3 class="Aut">Manuel Valadez</h3>
+                                <p class="Price">$ 950</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito"
+                                    onclick="addToCart('Manual practico de la litigación',950)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manual de ajedez.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Manual de ajedez</h2>
+                                <h3 class="Aut">Sean Marsh</h3>
+                                <p class="Price">$ 760</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Manual de ajedez',760)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manual de nutricion.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Manual de nutrición</h2>
+                                <h3 class="Aut">Luis Lesur</h3>
+                                <p class="Price">$ 465</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Manual de nutrición',465)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manual de derecho canonico.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Manual de derecho canonico</h2>
+                                <h3 class="Aut">Jaime A. Vela</h3>
+                                <p class="Price">$ 350</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Manual de derecho canonico',350)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manual de magias simples.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Manual de magias simples</h2>
+                                <h3 class="Aut">Luciana O. García</h3>
+                                <p class="Price">$ 182</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Manual de magias simples',182)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manuales figura.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Manuales: figura</h2>
+                                <h3 class="Aut">Varios Autores</h3>
+                                <p class="Price">$ 242</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Manuales: figura',242)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manual de enfermeria.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Manual completo de enfermería y veterinaria</h2>
+                                <h3 class="Aut">Victoria Aspinall</h3>
+                                <p class="Price">$ 4,207</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito"
+                                    onclick="addToCart('Manual completo de enfermería y veterinaria',4207)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manual de madera.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">Manual completo de madera</h2>
+                                <h3 class="Aut">Vicenc Gilbert</h3>
+                                <p class="Price">$ 837</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Manual completo de madera',837)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manual bicicleta.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Manual completo de la bicicleta.</h2>
+                                <h3 class="Aut">Varios Autores</h3>
+                                <p class="Price">$ 480</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('La inteligencia de los bosques',480)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/El cuerpo humano.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">El cuerpo humano</h2>
+                                <h3 class="Aut">Ken Ashwell</h3>
+                                <p class="Price">$ 399</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('El cuerpo humano',399)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manual de adivinacion.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Manual de adivinación</h2>
+                                <h3 class="Aut">Lilian Verner-Bonds</h3>
+                                <p class="Price">$ 299</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Manual de adivinación',299)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manual patrologia.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Manual patrología</h2>
+                                <h3 class="Aut">Humbertus R. Drobner</h3>
+                                <p class="Price">$ 2,005</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Manual patrología',2005)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manual de criminologia.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Manual de criminología</h2>
+                                <h3 class="Aut">Octavio Alberto</h3>
+                                <p class="Price">$ 630</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Manual de criminología',630)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Tecnicos/Manuales/Manuales flores.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Manuales: flores</h2>
+                                <h3 class="Aut">Ramón de Jesús</h3>
+                                <p class="Price">$ 246</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Manuales: flores',246)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="slide-btn right" onclick="slideRight(2)">&#10095;</button>
+
+        </article>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="carrito.js"></script>
+    <script src="Alert.js"></script>
+    <script src="Javascrip.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jose Manuel Hernandez Guevara">
+    <link rel="icon" href="Imagenes/favicon.ico" type="image/x-icon">
+    <title>Lo más leído</title>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="Carr">
+            <a href="0. Index.html"><img src="Imagenes/Regresar.jpg" class="Ic"></a>
+            <a href="Carrito.html"><img src="Imagenes/Carrito.jpg" class="Ic"></a>
+        </div>
+        <div class="Catg">
+            <h1 class="Titulos">Lo más leído</h1>
+        </div>
+    </header>
+
+    <article>
+        <!--Primera sección-->
+        <br>
+        <div class="slider-container" data-index="0">
+            <button class="slide-btn left" onclick="slideLeft(0)">&#10094;</button>
+            <div class="slider">
+                <div class="slide-track">
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Narrativa/Cuentos/Cuentos 2.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Cuentos</h2>
+                            <h3 class="Aut">Fernando Pessoa</h3>
+                            <p class="Price">$ 530</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Cuentos',530)">Añadir al carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Consulta/Diccionarios/Diccionario de sueños.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Diccionario de sueños</h2>
+                            <h3 class="Aut">Pluton Ediciones</h3>
+                            <p class="Price">$ 250</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Diccionario de sueños',250)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Divulgativos/Quimica/Fundamentos de quimica.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Fundamentos de química</h2>
+                            <h3 class="Aut">Hein Morris</h3>
+                            <p class="Price">$ 721</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Fundamentos de química',721)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Practicos/Cientificos/El origen de las especies.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">El origen de las especies</h2>
+                            <h3 class="Aut">Charles Robert Darwin</h3>
+                            <p class="Price">$ 649</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('El origen de las especies',649)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Tecnicos/Recetarios/La revolucion de los 22 dias.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">La revolución de los 22 dias</h2>
+                            <h3 class="Aut">Marco Borges</h3>
+                            <p class="Price">$ 231</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('La revolución de los 22 dias',231)">Añadir
+                                al carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Infantiles/La biblia infantil.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">La biblia infantil</h2>
+                            <h3 class="Aut">Hiperlibro</h3>
+                            <p class="Price">$ 208</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('La biblia infantil', 208)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Universal/Mi lucha.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Mi lucha</h2>
+                            <h3 class="Aut">Adolf Hitler</h3>
+                            <p class="Price">$ 450</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Mi lucha', 450)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Novela grafica/Five Nights At Freddys. Los otros animatrónicos.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Five Nights At Freddys. Los otros animatrónicos</h2>
+                            <h3 class="Aut">Scott Cawthon</h3>
+                            <p class="Price">$ 299</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito"
+                                onclick="addToCart('Five Nights At Freddys. Los otros animatrónicos', 299)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Narrativa/Cuentos/El Principito.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">El Principito</h2>
+                            <h3 class="Aut">Antoine de Saint-Exupéry</h3>
+                            <p class="Price">$ 450</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('El Principito',450)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Consulta/Diccionarios/Diccionario de Enfermedades.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Diccionario de Enfermedades</h2>
+                            <h3 class="Aut">Marco Rossari</h3>
+                            <p class="Price">$ 390</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Diccionario de Enfermedades',390)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Divulgativos/Quimica/Bioquimica.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Bioquímica</h2>
+                            <h3 class="Aut">Jonh L. Tymoczko</h3>
+                            <p class="Price">$ 1,040</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Bioquímica',1040)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Practicos/Cientificos/Teoría de la realidad.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Teoría de la realidad</h2>
+                            <h3 class="Aut">Bepe Popu</h3>
+                            <p class="Price">$ 599</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Teoría de la realidad',599)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Tecnicos/Recetarios/Recetario hebreo.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Recetario hebreo</h2>
+                            <h3 class="Aut">Almudena Villegas</h3>
+                            <p class="Price">$ 830</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Recetario hebreo',830)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Infantiles/Yo nunca vi televisión.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Yo nunca vi televisión</h2>
+                            <h3 class="Aut">31 minutos</h3>
+                            <p class="Price">$ 148</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Yo nunca vi televisión', 148)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Universal/Divina Comedia.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Divina Comedia</h2>
+                            <h3 class="Aut">Dante Alighieri</h3>
+                            <p class="Price">$ 1,646</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Divina Comedia', 1646)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="slide-btn right" onclick="slideRight(0)">&#10095;</button>
+        </div>
+    </article>
+    <br>
+    <article>
+        <!--Segunda sección-->
+        <br><br>
+        <div class="slider-container" data-index="1">
+            <button class="slide-btn left" onclick="slideLeft(1)">&#10094;</button>
+            <div class="slider">
+                <div class="slide-track">
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Novela grafica/Five nights at Freddys Escalofríos de Fazbear 1.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Five nights at Freddys Escalofríos de Fazbear 1</h2>
+                            <h3 class="Aut">Scott Cawhton</h3>
+                            <p class="Price">$ 319</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito"
+                                onclick="addToCart('Five nights at Freddys Escalofríos de Fazbear 1', 319)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Narrativa/Poesía/Son de mar.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Son de mar</h2>
+                            <h3 class="Aut">Aurora Hernández</h3>
+                            <p class="Price">$ 299</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Son de mar', 299)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Consulta/Enciclopedias/Minecraft, Enciclopedia de Mobs.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Minecraft, Enciclopedia de Mobs</h2>
+                            <h3 class="Aut">Mojang AB</h3>
+                            <p class="Price">$ 400</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Minecraft, Enciclopedia de Mobs', 400)">Añadir
+                                al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Divulgativos/Fisica/Materia y energia.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Materia y energía</h2>
+                            <h3 class="Aut">Varios Autores</h3>
+                            <p class="Price">$ 559</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Materia y energía',559)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Practicos/Consulta/Un lector.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Un lector</h2>
+                            <h3 class="Aut">Geroge Steiner</h3>
+                            <p class="Price">$ 260</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Un lector',260)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Tecnicos/Manuales/Manual de derecho.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Manual de derecho procesal penal</h2>
+                            <h3 class="Aut">Juan Luis Gómez</h3>
+                            <p class="Price">$ 1,119</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Manual de derecho procesal penal',1119)">Añadir
+                                al carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Infantiles/El mundo mágico de Harry Potter.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">El mundo mágico de Harry Potter</h2>
+                            <h3 class="Aut">J.K. Rowling</h3>
+                            <p class="Price">$ 589</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('El mundo mágico de Harry Potter', 589)">Añadir
+                                al carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Mexicana/La guerra del unicornio.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">La guerra del unicornio</h2>
+                            <h3 class="Aut">Angelina Muñiz-Huberman</h3>
+                            <p class="Price">$ 405</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('La guerra del unicornio', 405)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Ilustrados/ALICIA EN EL PAIS DE LAS MARAVILLAS.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">ALICIA EN EL PAIS DE LAS MARAVILLAS</h2>
+                            <h3 class="Aut">Lewis Carroll</h3>
+                            <p class="Price">$ 742</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito"
+                                onclick="addToCart('ALICIA EN EL PAIS DE LAS MARAVILLAS', 742)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Narrativa/Poesía/Adoniada.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Adoniada</h2>
+                            <h3 class="Aut">Adonis</h3>
+                            <p class="Price">$ 405</p>
+
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Adoniada',405)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Consulta/Enciclopedias/Enciclopedia de gastronomia.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Enciclopedia de gastronomía</h2>
+                            <h3 class="Aut">Humbert Delorme</h3>
+                            <p class="Price">$ 1,240</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Enciclopedia de gastronomía',1240)">Añadir
+                                al carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Divulgativos/Fisica/La luz revelada.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">La luz revelada</h2>
+                            <h3 class="Aut">Serge Haroche</h3>
+                            <p class="Price">$ 499</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('La luz revelada',499)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Practicos/Consulta/Luna de pluton.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Luna de plutón</h2>
+                            <h3 class="Aut">Dross Rotzank</h3>
+                            <p class="Price">$ 100</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Luna de pluton',250)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Tecnicos/Manuales/Manual de diseño ecologico.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Manual de diseño ecológico</h2>
+                            <h3 class="Aut">Alison G. Kwok</h3>
+                            <p class="Price">$ 785</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Manual de diseño ecológico',785)">Añadir
+                                al carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Infantiles/Intensamente 2. Libro de arte y Emociones.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Intensamente 2. Libro de arte y Emociones</h2>
+                            <h3 class="Aut">Disney</h3>
+                            <p class="Price">$ 128</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito"
+                                onclick="addToCart('Intensamente 2. Libro de arte y Emociones', 128)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="slide-btn right" onclick="slideRight(1)">&#10095;</button>
+        </div>
+    </article><br>
+    <article>
+        <!--Tercera sección-->
+        <br><br>
+        <div class="slider-container" data-index="0">
+            <button class="slide-btn left" onclick="slideLeft(2)">&#10094;</button>
+            <div class="slider">
+                <div class="slide-track">
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Mexicana/Ambrosía.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Ambrosía</h2>
+                            <h3 class="Aut">Valeria Duval</h3>
+                            <p class="Price">$ 495</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Ambrosía', 495)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Ilustrados/Bambi.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Bambi</h2>
+                            <h3 class="Aut">Felix Salten</h3>
+                            <p class="Price">$ 850</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Bambi', 850)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Narrativa/Novelas/Boulevard Antes de ella.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Boulevard<br> Antes de ella</h2>
+                            <h3 class="Aut">Flor M. Slavador</h3>
+                            <p class="Price">$ 300</p>
+
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Boulevard \n Antes de ella',300)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Consulta/Guías/Mitos y leyendas.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Mitos y leyendas</h2>
+                            <h3 class="Aut">Philip Wilkinson</h3>
+                            <p class="Price">$ 499</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Mitos y leyendas',499)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Divulgativos/Biologia/El cambio climatico.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">El cambio climatico en la historia de la humanidad</h2>
+                            <h3 class="Aut">Bemjamin Lieberman</h3>
+                            <p class="Price">$ 840</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('El cambio climatico',840)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Practicos/Libros lingüísticos/El libro troll.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">El libro troll</h2>
+                            <h3 class="Aut">El Rubius</h3>
+                            <p class="Price">$ 100</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('El libro troll',450)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Tecnicos/Manuales/Manual de ajedez.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Manual de ajedrez</h2>
+                            <h3 class="Aut">Sean Marsh</h3>
+                            <p class="Price">$ 760</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Manual de ajedrez',760)">Añadir
+                                al carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Infantiles/Yolo Aventuras 3 y los impostores del espacio.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Yolo Aventuras 3 y los impostores del espacio</h2>
+                            <h3 class="Aut">Yolo, Mariana, Nando y Panda</h3>
+                            <p class="Price">$ 248</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito"
+                                onclick="addToCart('Yolo Aventuras 3 y los impostores del espacio', 248)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/iberoamericana/DON QUIJOTE DE LA MANCHA.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">DON QUIJOTE DE LA MANCHA</h2>
+                            <h3 class="Aut">Miguel de Cervantes Saavedra</h3>
+                            <p class="Price">$ 3800</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('DON QUIJOTE DE LA MANCHA', 3800)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Mangas/Dragon Ball Super N.20.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Dragon Ball Super N.20</h2>
+                            <h3 class="Aut">Akira Toriyama</h3>
+                            <p class="Price">$ 159</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Dragon Ball Super N.20', 159)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Narrativa/Novelas/La edad de la inocencia.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">La edad de la inocencia</h2>
+                            <h3 class="Aut">Edith Warthon</h3>
+                            <p class="Price">$ 300</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('La edad de la inocencia',300)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Mangas/Rent a Girlfriend N.25.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Rent a Girlfriend N.25</h2>
+                            <h3 class="Aut">Reiji Miyajima</h3>
+                            <p class="Price">$149</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Rent a Girlfriend N.25', 149)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Consulta/Guías/I Guerra Mundial.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">I Guerra Mundial</h2>
+                            <h3 class="Aut">Richard Overy</h3>
+                            <p class="Price">$ 750</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('I Guerra Mundial',750)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/iberoamericana/Salvo mi corazón, todo está bien.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Salvo mi corazón, todo está bien</h2>
+                            <h3 class="Aut">Héctor Abad Faciolince</h3>
+                            <p class="Price">$ 469</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Salvo mi corazón, todo está bien', 469)">Añadir
+                                al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Divulgativos/Biologia/Tierra viviente.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Tierra viviente.</h2>
+                            <h3 class="Aut">Stephan Harding</h3>
+                            <p class="Price">$ 740</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Tierra viviente.', 740)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="slide-btn right" onclick="slideRight(2)">&#10095;</button>
+        </div>
+    </article> <br>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="carrito.js"></script>
+    <script src="Alert.js"></script>
+    <script src="Javascrip.js"></script>
+
+
+
+</body>
+
+</html>

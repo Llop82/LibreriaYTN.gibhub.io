@@ -1,0 +1,889 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Luciano Herrera Ricardo">
+    <title>CONSULTA</title>
+    <link rel="icon" href="Imagenes/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="Carr">
+            <a href="0. Index.html" class="Izq"><img src="Imagenes/Regresar.jpg" class="Ic"></a>
+            <a href="Carrito.html" class=" Der"><img src="Imagenes/Carrito.jpg" class="Ic"></a>
+        </div>
+        <div class="Catg">
+            <h1 class="Titulos">CONSULTA</h1>
+        </div>
+    </header>
+
+    <section>
+        <article>
+            <!--Diccionarios-->
+            <h1 class="Ti">Diccionarios especializados</h1>
+
+            <div class="slider-container" data-index="0">
+                <button class="slide-btn left" onclick="slideLeft(0)">&#10094;</button>
+                <div class="slider">
+                    <div class="slide-track">
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Diccionarios/Diccionario de Neurociencia.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Diccionario de Neurociencia</h2>
+                                <h3 class="Aut">Francisco Mora</h3>
+                                <p class="Price">$ 700</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Neurociencia()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Diccionario de Neurociencia', 700)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Diccionarios/Diccionario de Psicologia.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Diccionario de Psicologia</h2>
+                                <h3 class="Aut">Umberto Galimberti</h3>
+                                <p class="Price">$ 1,600</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Psicologia()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Diccionario de Psicologia',1600)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Diccionarios/Diccionario Filosofico.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Diccionario Filosofico</h2>
+                                <h3 class="Aut">Voltaire</h3>
+                                <p class="Price">$ 360</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Filosofico()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Diccionario Filosofico',360)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Diccionarios/Diccionario Sirius de Astronomia.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Diccionario Sirius de Astronomia</h2>
+                                <h3 class="Aut">Jorge Ruiz</h3>
+                                <p class="Price">$ 150</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Sirius()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito"
+                                    onclick="addToCart('Diccionario Sirius de Astronomia',150)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Diccionarios/Diccionario Amoroso del Psicoanalisis.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Diccionario Amoroso del Psicoanalisis</h2>
+                                <h3 class="Aut">Élisabeth Roudinesco</h3>
+                                <p class="Price">$ 700</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Psicoanalisis()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito"
+                                    onclick="addToCart('Diccionario Amoroso del Psicoanalisis',700)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Diccionarios/Diccionario breve de Filosofia.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Diccionario breve de Filosofia</h2>
+                                <h3 class="Aut">MAx Hüller</h3>
+                                <p class="Price">$ 680</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Filosofia()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Diccionario breve de Filosofia',680)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Diccionarios/Diccionario de Criminologia.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Diccionario de Criminologia</h2>
+                                <h3 class="Aut">Eugene McLaughlin</h3>
+                                <p class="Price">$ 970</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Criminologia()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Diccionario de Criminologia',970)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Diccionarios/Diccionario universal de Ángeles y Demonios.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Diccionario universal de Ángeles y Demonios</h2>
+                                <h3 class="Aut">Félix Llaugé</h3>
+                                <p class="Price">$ 500</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Angelesydemonios()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito"
+                                    onclick="addToCart('Diccionario universal de Ángeles y Demonios',500)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Diccionarios/Diccionario de Filosofia de bolsillo.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Diccionario de Filosofia de bolsillo</h2>
+                                <h3 class="Aut">José Ferrater</h3>
+                                <p class="Price">$ 365</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Filosofiadebolsillo()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito"
+                                    onclick="addToCart('Diccionario de Filosofia de bolsillo',365)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Diccionarios/Diccionario de Mitos.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Diccionario de Mitos</h2>
+                                <h3 class="Aut">Carlos García</h3>
+                                <p class="Price">$ 450</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Mitos()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Diccionario de Mitos',450)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Diccionarios/Diccionario de Mitologia.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Diccionario de Mitologia</h2>
+                                <h3 class="Aut">Chistine Harrauer</h3>
+                                <p class="Price">$ 1700</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Mitologia()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Diccionario de Mitologia',1700)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Diccionarios/Diccionario de sueños.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Diccionario de sueños</h2>
+                                <h3 class="Aut">Pluton Ediciones</h3>
+                                <p class="Price">$ 250</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Sueños()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Diccionario de sueños',250)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Diccionarios/Diccionario Historico.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Diccionario Historico de arquitectura</h2>
+                                <h3 class="Aut">Margarita Díaz</h3>
+                                <p class="Price">$ 400</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Arquitectura()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito"
+                                    onclick="addToCart('Diccionario Historico de arquitectura',400)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Diccionarios/Diccionario de Grafologia.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Diccionario de Grafologia</h2>
+                                <h3 class="Aut">Augusto Vels</h3>
+                                <p class="Price">$ 1160</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Grafologia()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Diccionario de Grafologia',1160)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Diccionarios/Diccionario de Enfermedades.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Diccionario de Enfermedades</h2>
+                                <h3 class="Aut">Marco Rossari</h3>
+                                <p class="Price">$ 390</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Enfermedades()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Diccionario de Enfermedades',390)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="slide-btn right" onclick="slideRight(0)">&#10095;</button>
+
+        </article> <br>
+        <!--Enciclopedias-->
+        <article>
+            <h1 class="Ti">Enciclopedias</h1>
+
+            <div class="slider-container" data-index="1">
+                <button class="slide-btn left" onclick="slideLeft(1)">&#10094;</button>
+                <div class="slider">
+                    <div class="slide-track">
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Enciclopedias/Minecraft, Enciclopedia de Mobs.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Minecraft, Enciclopedia de Mobs</h2>
+                                <h3 class="Aut">Mojang AB</h3>
+                                <p class="Price">$ 400</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Minecraft()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito"
+                                    onclick="addToCart('Minecraft, Enciclopedia de Mobs', 400)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Enciclopedias/Enciclopedia de Mitologia 2.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Enciclopedia de mitología</h2>
+                                <h3 class="Aut">Marisa Belmonte</h3>
+                                <p class="Price">$ 350</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Mitologia2()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Enciclopedia de mitología',350)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Enciclopedias/Enciclopedia de gastronomia.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Enciclopedia de gastronomía</h2>
+                                <h3 class="Aut">Humbert Delorme</h3>
+                                <p class="Price">$ 1,240</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Gastronomia()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Enciclopedia de gastronomía',1240)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Enciclopedias/Enciclopedia de Mitologia.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Enciclopedia de Mitología</h2>
+                                <h3 class="Aut">C. Escobedo</h3>
+                                <p class="Price">$ 450</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Mitologia3()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Enciclopedia de Mitología',450)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Enciclopedias/Enciclopedia de Magia.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Enciclopedia de Magia</h2>
+                                <h3 class="Aut">Varios autores</h3>
+                                <p class="Price">$ 460</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Magia()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Enciclopedia de Magia',460)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Enciclopedias/Enciclopedia de esoterismo.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Enciclopedia de esoterismo</h2>
+                                <h3 class="Aut">Roberto Tresoldi</h3>
+                                <p class="Price">$ 430</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Esoterismo()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Enciclopedia de esoterismo',430)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Enciclopedias/EnciclopediaFrancmasoneria.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Enciclopedia de la Francmasoneria</h2>
+                                <h3 class="Aut">Arthur Edward Waite</h3>
+                                <p class="Price">$ 940</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Francmasoneria()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito"
+                                    onclick="addToCart('Enciclopedia de la Francmasoneria',940)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Enciclopedias/Enciclopedia de Brujeria moderna.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Enciclopedia de Brujeria moderna</h2>
+                                <h3 class="Aut">Uribe Scott</h3>
+                                <p class="Price">$ 450</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Brujeria()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito"
+                                    onclick="addToCart('Enciclopedia de Brujeria moderna',450)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Enciclopedias/Enciclopedia de hadas.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Enciclopedia de hadas</h2>
+                                <h3 class="Aut">Heat Fawcett</h3>
+                                <p class="Price">$ 365</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Hadas()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Enciclopedia de hadas',365)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Enciclopedias/Enciclopedia de Mujeres.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Enciclopedia de los mitos y secretos de las mujeres</h2>
+                                <h3 class="Aut">Barbara G. Walker</h3>
+                                <p class="Price">$ 975</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Mujeres()">Descripción</button>
+                            </div>
+                            <div class="Car"><button class="Carrito"
+                                    onclick="addToCart('Enciclopedia de los mitos y secretos de las mujeres',975)">Añadir
+                                    al carrito</button></div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Enciclopedias/Enciclopedia de plantas de acuario.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Enciclopedia de las plantas de acuario</h2>
+                                <h3 class="Aut">Peter Hacock</h3>
+                                <p class="Price">$ 900</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Acuario()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito"
+                                    onclick="addToCart('Enciclopedia de las plantas de acuario',900)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Enciclopedias/Enciclopedia de la poda.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Enciclopedia de la poda y formación</h2>
+                                <h3 class="Aut">Cristopher Brickell</h3>
+                                <p class="Price">$ 1,240</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Poda()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito"
+                                    onclick="addToCart('Enciclopedia de la poda y formación',1240)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Enciclopedias/Enciclopedia de plagas.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Enciclopedia de las plagas y enfermedades</h2>
+                                <h3 class="Aut">Pippa Greenwood</h3>
+                                <p class="Price">$ 1,240</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Plagas()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito"
+                                    onclick="addToCart('Enciclopedia de las plagas y enfermedades',1240)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Enciclopedias/Enciclopedia del espacio.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Enciclopedia del espacio</h2>
+                                <h3 class="Aut">Susaeta Ediciones</h3>
+                                <p class="Price">$ 400</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Espacio()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Enciclopedia del espacio',400)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Enciclopedias/Enciclopedia de anatomia.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Enciclopedia de anatomia del ejercicio</h2>
+                                <h3 class="Aut">Hollis Lance</h3>
+                                <p class="Price">$ 1,120</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Ejercicio()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito"
+                                    onclick="addToCart('Enciclopedia de anatomia del ejercicio',1120)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="slide-btn right" onclick="slideRight(1)">&#10095;</button>
+
+        </article><br>
+
+        <!--Guias-->
+        <article>
+            <h1 class="Ti">Guías</h1>
+
+            <div class="slider-container" data-index="2">
+                <button class="slide-btn left" onclick="slideLeft(2)">&#10094;</button>
+                <div class="slider">
+                    <div class="slide-track">
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Guías/Teletrabajo y neurotecnologia.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Teletrabajo y neurotecnologia</h2>
+                                <h3 class="Aut">Viviana Laura Díaz</h3>
+                                <p class="Price">$ 250</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Teletrabajo()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Teletrabajo y neurotecnologia', 250)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Guías/Guia para investigacion.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Guia para investigación</h2>
+                                <h3 class="Aut">María Velia</h3>
+                                <p class="Price">$ 250</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Investigacion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Guia para investigación',250)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Guías/Como funciona una empresa.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Cómo funciona una empresa</h2>
+                                <h3 class="Aut">Alexandra Black</h3>
+                                <p class="Price">$ 499</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Empresa()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Cómo funciona una empresa',499)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Guías/Guia practica de la jardineria.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Guia practica de la jardineria</h2>
+                                <h3 class="Aut">Jonathan Edwards</h3>
+                                <p class="Price">$ 266</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Jardineria()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Guia practica de la jardineria',266)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Guías/Mitos y leyendas.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Mitos y leyendas</h2>
+                                <h3 class="Aut">Philip Wilkinson</h3>
+                                <p class="Price">$ 499</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Leyendas()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Mitos y leyendas',499)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Guías/Guia astronomica.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Guia astronomica de las constelaciones</h2>
+                                <h3 class="Aut">Christina Balit</h3>
+                                <p class="Price">$ 149</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Astronomica()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito"
+                                    onclick="addToCart('Guia astronomica de las constelaciones',149)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Guías/Gran guia visual del cosmos.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Gran guía visual del cosmos</h2>
+                                <h3 class="Aut">Toshifumi Futamase</h3>
+                                <p class="Price">$ 469</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Cosmos()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Gran guía visual del cosmos',469)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Guías/Creatividad.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Desarrollo y habilidades del pensamiento</h2>
+                                <h3 class="Aut">Margarita A. de Sánchez</h3>
+                                <p class="Price">$ 289</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Creatividad()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito"
+                                    onclick="addToCart('Desarrollo y habilidades del pensamiento',289)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Guías/Guia para el manejo de sentimientos.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Guia para el manejo de sentimientos</h2>
+                                <h3 class="Aut">Amelia Macías Timotino</h3>
+                                <p class="Price">$ 279</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Sentimientos()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito"
+                                    onclick="addToCart('Guia para el manejo de sentimientos',279)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Guías/Guia para entender el marketing digital.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Guía para entender el marketing digital</h2>
+                                <h3 class="Aut">Damian Ryan</h3>
+                                <p class="Price">$ 509</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Marketing()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito"
+                                    onclick="addToCart('Guía para entender el marketing digital',509)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Guías/Guia dos apodicticos.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Guía dos apodicticos</h2>
+                                <h3 class="Aut">Hindemburg Meao Jr</h3>
+                                <p class="Price">$ 279</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Apodicticos()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Guía dos apodicticos',279)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Guías/Anatomia y musculacion.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Anatomia y musculación</h2>
+                                <h3 class="Aut">Ricardo Canovas</h3>
+                                <p class="Price">$ 631</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Anatomia()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Anatomia y musculación',631)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Guías/Guia visual del cuerpo humano.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Guía visual del cuerpo humano</h2>
+                                <h3 class="Aut">Sylvian Belanger</h3>
+                                <p class="Price">$ 399</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="CuerpoHumano()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Guía visual del cuerpo humano',399)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Guías/Habitos de estudio.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Habitos de estudio</h2>
+                                <h3 class="Aut">Lisbeth Quintero</h3>
+                                <p class="Price">$ 150</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Estudio()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Habitos de estudio',150)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Consulta/Guías/I Guerra Mundial.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">I Guerra Mundial</h2>
+                                <h3 class="Aut">Richard Overy</h3>
+                                <p class="Price">$ 750</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="Mundial()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('I Guerra Mundial',750)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="slide-btn right" onclick="slideRight(2)">&#10095;</button>
+
+        </article>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="carrito.js"></script>
+    <script src="Alert.js"></script>
+    <script src="Javascrip.js"></script>
+    </div>
+</body>
+
+</html>

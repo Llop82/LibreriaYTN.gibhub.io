@@ -1,0 +1,602 @@
+/**/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Logo*/
+.header{
+    position: relative;
+    height: 150px;
+    background: none;
+    background-color: black;
+}
+.Header{
+    width: 100%;
+    height: auto;
+    background: none;
+    background-color: black;
+}
+.Menu{
+    display: flex;
+    justify-content: space-between;
+}
+.Carr{
+    display: flex;
+    justify-content: space-between;
+    background-color: #000;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+.lg{
+    margin: 20px;
+    width: 200px;
+    height: 100px;
+}
+.Logo{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    top: 0;
+}
+.Lg{
+    position: absolute;
+    top: 0;
+    width: 200px;
+    height: 100px;
+}
+.Ic{
+    height: 40px;
+    width: 40px;
+}
+.Icr{
+    height: 30px;
+    width: auto;
+}
+/*Buscador*/
+.Body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Body1{
+    margin: 0;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Buscador{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+.Bsc{
+    width: 550px;
+    padding: 20px;
+    padding-right: 20px;
+    border-radius: 8px 8px 8px 8px;
+    border: 2px solid black;
+    outline: none;
+}
+.Lupa{
+    text-align: center;
+    background-color: black;
+    padding: 20px 20px;
+    position: absolute;
+    border: 2px solid black;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    border-radius: 0px 8px 8px 0px;
+    cursor: pointer;
+}
+.Lp{
+    width: auto;
+    height: 28px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+/*Categorias*/
+.Cat{
+    background-color: black;
+    border-radius: 8px 8px 8px 8px;
+    text-align: center;
+    width: 95%;
+}
+.Catg{
+    background-color: #000;
+    text-align: center;
+    padding: 20px 0 20px;
+}
+.Titulos{
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 80px;
+    color: #fff;
+}
+.Cont{
+    width: 90%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+
+}
+.Cont1{
+    min-width: 200px;
+    margin: 15px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Cate{
+    display: inline-block;
+    padding: 39px 75px;
+    background: #a87b05;
+    color: #000;
+    border-radius: 10px 10px;
+    cursor: pointer;
+    text-decoration: none;
+     margin: 10px 10px;
+    text-align: center;
+    font-style: italic;
+    font-weight: 1000;
+    font-size: 26.5px;
+    border: 3px solid #000;
+    width: 450px;
+    box-shadow: 1.5px 4px 1.5px #000;
+}
+.Cate:hover {
+    background-color: #886304;
+    font-size: 29px;
+    box-shadow: 1px 2px 1px #000;
+}
+.Cate:active{
+    box-shadow: none;
+}
+/*Pie de página*/
+footer{
+    background-color: #000;
+}
+.Con{
+    color: #fff;
+    font-size: 40px;
+    font-weight: 700;
+}
+.Con1{
+    color: #000;
+    font-size: 40px;
+    font-weight: 700;
+}
+.Co{
+    font-style: italic;
+    font-size: 20px;
+    color: #fff;
+}
+.Cor{
+    font-style: italic;
+    font-weight: 600;
+    font-size: 30px;
+    color: #fff;
+    padding: 15px ;
+}
+.RS{
+    height: 35px;
+    width: auto;
+    padding: 0 5px;
+}
+.Esp{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 15px 10px 15px;
+}
+/*3 rayas*/
+.nav {
+    position: relative;
+    display: flex;
+    width: 215px;
+    background-color: rgb(139, 136, 136);
+    font-size: 20px;
+    margin-top: 0px;
+    border-radius: 5px; 
+    border: 2px solid black;
+    display: none;
+}
+.menu-vertical {
+    list-style: none;
+    padding: 20px;
+    
+}
+.menu-vertical > li > a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px; 
+    border: 2px solid black;
+}
+.menu-vertical > li:hover {
+    border-radius: 10px ;
+    background-color: #bec0c0;
+}
+.submenu-submenu-vertical {
+    display: none;
+    z-index: 101;
+    list-style: none;
+    position: absolute;
+    left: 177px; 
+    top: 0; 
+    background-color: #ccc;
+    width: 200px;
+    border-radius: 10px; 
+    padding: 20px;
+    border: 2px solid black;
+}
+.submenu-vertical {
+    display: none;
+    list-style: none;
+    position: absolute;
+    left: 182px; 
+    top: 0; 
+    background-color: #ccc;
+    width: 200px;
+    border-radius: 10px; 
+    padding: 20px;
+    border: 2px solid black;
+}
+.menu-vertical li:hover .submenu-vertical, .submenu-vertical li:hover .submenu-submenu-vertical {
+    display: block;
+}
+.submenu-vertical li:hover, .submenu-submenu-vertical li:hover {
+    background-color: black;
+    border-radius: 10px ;
+    
+}
+.submenu-vertical li a, .submenu-submenu-vertical li a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    padding: 15px 15px 15px 20px;
+    border-radius: 10px; 
+    border: 2px solid black;
+}
+
+
+/*Tamaño de imagenes de los botones del menú*/
+.tamaño1{
+    top: 5px;
+    position: absolute;
+    left: 5px;
+    height: 30px;
+    width: 30px;
+}
+.tamaño2{
+    top: 5px;
+    position: absolute;
+    left: 5px;
+    height: auto;
+    width: 30px;
+}
+.Der{ 
+    text-align: end;
+}
+/*Botones del menú*/
+.hide-button {
+    display: none;
+}
+.boton{
+    border: none;
+    background-color: transparent;
+}
+#toggleButton:hover,
+#toggleButton:active,
+#navMenu button:hover,
+#navMenu button:active {
+    transform: scale(0.85);
+}
+/*Libros*/
+.slider-container {
+    max-width: 4100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 92%;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #f3f3f3; 
+}
+
+.slider {
+    overflow: hidden;
+    width: 100%;
+}
+.slide-track{
+    display: flex;
+    transition: transform 0.5s ease;
+}
+.Items {
+    min-width: 250px;
+    margin: 15px;
+    background: #f3f3f3;
+    padding: 20px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.Producto{
+    width: auto;
+    height: 200px;
+    display: flex;
+    justify-items: center;
+}
+.Cont-Items{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 20px;
+}
+.Items{
+    border-radius: 10px;
+}
+.Items:hover{
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 20);
+}
+.Info{
+    height: 200px;
+    padding: 15px 30px 15px;
+    line-height: 2;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.Items img{
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+    transition: all .5s;
+}
+.Items figure{
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+.Items:hover img{
+    transform: scale(1.2);
+}
+
+.Price{
+    font-size: 18px;
+    font-weight: 900;
+}
+.Ti{
+    font-size: 35px;
+    font-style: italic;
+    padding: 20px 60px 20px;
+}
+.Tit{
+    font-size: 17px;
+    font-style: italic;
+}
+.Aut{
+    font-size: 12px;
+    font-style: italic;
+}
+.Items div {
+    text-align: center;
+}
+.Car{
+    display: flex;
+    justify-content: center;
+    padding: 5px
+}
+.Carrito{
+    text-align: center;
+    display: flex;
+    border: none;
+    background: none;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 30px;
+    cursor: pointer;
+}
+.Art{
+    margin: 50px;
+    text-align: center;
+}
+.T{
+    font-size: 30px;
+    font-weight: 600;
+    font-style: italic;
+}
+.t{
+    padding: 30px;
+    font-size: 25px;
+    font-weight: 500;
+    font-style: italic;
+}
+.To{
+    text-align: center;
+    font-size: 60px;
+    font-weight: 600;
+    font-style: italic;
+}
+/* Botones de navegación*/
+.slide-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.432);
+    border: none;
+    color: rgb(209, 178, 3);
+    font-size: 30px;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    z-index: 10;
+}
+
+.left {
+    left: 10px;
+}
+
+.right {
+    right: 10px;
+}
+
+.slide-btn[disabled] {
+    display: none;
+}
+
+/*Barra de busqueda*/
+.search-result-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; 
+    padding: 20px;
+}
+
+.search-result {
+    width: 250px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+     align-items: center;
+}
+
+.search-result figure {
+    margin: 0;
+}
+
+.search-result img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.search-result .Info {
+    margin-top: 10px;
+}
+.Sect{
+    height: 1200px;
+}
+.Del{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    text-align: center;
+    display: flex;
+    border: none;
+    background: none;
+    background-color: #000;
+    color: #fff;
+    padding: 15px 20px 15px;
+    margin: 10px 15px;
+    cursor: pointer;
+}
+#cartItems{
+    margin: 25px 20px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+}
+#cartTotal{
+    margin: 25px 20px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    font-style: italic;
+}
+.Red{
+    color: red;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+}
+.form{
+    width: 400px;
+    background: #f1eaea;
+    border: 3px solid #000;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    color: #000;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+}
+.Nom-Form{
+    width: 100%;
+    padding: 12px;
+    height: auto;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #000;
+    background: #f1eaea;
+    margin-bottom: 15px;
+    font-size: 22px;
+    font-style: italic;
+}
+.controls{
+    width: 100%;
+    background: #f1eaea;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.form button{
+   justify-content: center;
+    width: 100%;
+    background: #ccc;
+    border: 3px solid #000;
+    padding: 12px;
+    border-radius: 5px;
+    color: #000;
+    margin: 16px 0;
+    font-size: 16px;
+    font-weight: 600;
+}
+.Inf{
+    display: none;
+}
+select{
+    width: 50%;
+    background: #f1eaea;
+    padding: 10px;
+    border-radius: 4px;
+    border: 2px solid #000;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    font-style: italic;
+}
+
+.Desc{
+    border: 2px solid #000;
+    border-radius: 8px;
+}
+.Desc h3{
+    font-style: italic;
+    font-weight: 800;
+    font-size: 25px;
+}
+.Des{
+    padding: 15px;
+    font-style: italic;
+    font-weight: 800;
+    font-size: 20px;
+}

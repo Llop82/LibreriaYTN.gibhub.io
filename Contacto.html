@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="author" content="Garcia Diaz Salvador">
+    <title>Información de Envio</title>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+
+<body>
+    <header class="Header">
+        <div class="Carr">
+            <a href="Carrito.html" class="Izq"><img src="Imagenes/Regresar.jpg" class="Ic"></a>
+        </div>
+        <div class="logo"><a href="0. Index.html"><img src="Imagenes/Logo.jpg" class="lg"></a></div>
+    </header>
+    <section class="Sect">
+        <div class="form">
+            <div class="Nom-Form">
+                <h3>Completa tu pedido</h3>
+            </div>
+            <form id="shippingForm">
+                <label for="name">Nombre y Apellidos:</label>
+                <input class="controls" type="text" id="name" name="name" required><br>
+
+                <label for="dob">Fecha de Nacimiento:</label>
+                <input class="controls" type="date" id="dob" name="dob" required><br>
+
+                <label for="postalCode">Código Postal:</label>
+                <input class="controls" type="text" id="postalCode" name="postalCode" required><br>
+
+                <label for="address">Calle:</label>
+                <input class="controls" type="text" id="address" name="address" required><br>
+
+                <label for="phone">Número de Teléfono:</label>
+                <input class="controls" type="tel" id="phone" name="phone" required><br>
+
+                <label for="email">Correo Electrónico:</label>
+                <input class="controls" type="email" id="email" name="email" required><br>
+
+                <label for="paymentMethod">Método de Pago:</label>
+                <select id="paymentMethod" name="paymentMethod" required>
+                    <option value="">Seleccione</option>
+                    <option value="card">Tarjeta de Crédito/Débito</option>
+                    <option value="cash">Efectivo</option>
+                    <option value="other">Otro</option>
+                </select><br>
+
+                <div id="cardInfo" class="Inf">
+                    <label for="cardNumber">Número de Tarjeta:</label>
+                    <input class="controls" type="text" id="cardNumber" name="cardNumber"><br>
+
+                    <label for="expiryDate">Fecha de Expiración:</label>
+                    <input class="controls" type="month" id="expiryDate" name="expiryDate"><br>
+
+                    <label for="cvv">CVV:</label>
+                    <input class="controls" type="password" id="cvv" name="cvv"><br>
+                </div>
+
+                <div id="cashInfo" class="Inf">
+                    <label for="store">Selecciona la Tienda:</label>
+                    <select id="store" name="store">
+                        <option value="">Seleccione</option>
+                        <option value="oxxo">OXXO</option>
+                        <option value="seven-eleven">Seven-Eleven</option>
+                        <option value="k-mart">K-Mart</option>
+                        <option value="circle-k">Circle K</option>
+                        <option value="farmacias-roma">Farmacias Roma</option>
+                    </select><br>
+                </div>
+
+                <div id="storeInfo" class="Inf">
+                    <h3>Información para pago en tienda</h3>
+                    <img id="storeLogo" src="" alt="Logo de la tienda" style="width: 150px; height: auto;">
+                    <p>Código de barras:</p>
+                    <img id="barcode" src="" alt="Código de barras" style="width: 300px; height: auto;">
+                </div>
+
+                <button type="submit">Enviar</button>
+            </form>
+            <p id="errorMessage" class="Red"></p>
+        </div>
+    </section>
+    <br>
+    <footer>
+        <div class="Esp">
+            <p class="Con">Contacto</p>
+            <div>
+                <p class="Con">Síguenos</p>
+            </div>
+        </div>
+        <div class="Esp">
+            <p class="Cor">libreriaytn@gmail.com</p>
+            <div>
+                <a href="https://www.facebook.com/profile.php?id=61561284291026&mibextid=ZbWKwL"><img
+                        src="Imagenes/Facebok.jpg" class="RS"></a>
+                <a href="https://www.instagram.com/libreria_ytn?igsh=eGFkd2s1YzNidWZr"><img src="Imagenes/Instagram.jpg"
+                        class="RS"></a>
+                <a href="https://x.com/Libreria_YTN?t=AucIjLA7ZsAJpdfvzluopQ&s=09"><img src="Imagenes/Twither.jpg"
+                        class="RS"></a>
+            </div>
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="carrito.js"></script>
+</body>
+
+</html>

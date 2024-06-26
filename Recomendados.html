@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Maikeru">
+    <title>Tecnicos</title>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="Catg">
+            <h1 class="Titulos">Recomendados</h1>
+        </div>
+    </header>
+    <section>
+        <article>
+            <!--Recomendados-->
+            <h1 class="Ti">Recomendados</h1>
+            <div class="slider-container" data-index="0">
+                <button class="slide-btn left" onclick="slideLeft(0)">&#10094;</button>
+                <div class="slider">
+                    <div class="slide-track">
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Recomendados/Audiencia de control de la detencion.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Audiencia de control de la detencion</h2>
+                                <h3 class="Aut">Tapa blanda</h3>
+                                <p class="Price">$ 230</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito"
+                                    onclick="addToCart('Audiencia de control de la detencion',230)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Recomendados/Amsterdam.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Amsterdam</h2>
+                                <h3 class="Aut">Ian McEwab¿n</h3>
+                                <p class="Price">$ 240</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Amsterdam',240)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Recomendados/Tangos.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Tangos</h2>
+                                <h3 class="Aut">Tapa blanda</h3>
+                                <p class="Price">$ 231</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Tangos',231)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Recomendados/Las artes menores.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Las artes menores</h2>
+                                <h3 class="Aut">William Morris</h3>
+                                <p class="Price">$ 750</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Las artes menores',750)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Recomendados/Japon España.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Japón España</h2>
+                                <h3 class="Aut">Pedro Gallardo</h3>
+                                <p class="Price">$ 370</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Japon España',370)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Recomendados/Sustancia de higado.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Sustancia de higado</h2>
+                                <h3 class="Aut">Michelle Recinos</h3>
+                                <p class="Price">$ 390</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Sustancia de higado',390)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Recomendados/Historia de la verea.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Historia de la verea</h2>
+                                <h3 class="Aut">Manuel Huerta Pérez</h3>
+                                <p class="Price">$ 292</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Historia de la verea',292)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Recomendados/La jefa y el monte.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">La jefa y el monte</h2>
+                                <h3 class="Aut">Bitty Rizo</h3>
+                                <p class="Price">$ 505</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('La jefa y el monte',505)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Literatura/Universal/Mi lucha.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Mi lucha</h2>
+                                <h3 class="Aut">Adolf Hitler</h3>
+                                <p class="Price">$ 100</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Mi lucha',100)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Recomendados/Conocimiento y poder.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Conocimiento y poder</h2>
+                                <h3 class="Aut">Alejandra Salas</h3>
+                                <p class="Price">$ 369</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Conocimiento y poder',369)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Recomendados/Solo con los demas.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Solo con los demás</h2>
+                                <h3 class="Aut">Stephen Batchelor</h3>
+                                <p class="Price">$ 200</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Solo con los demas',200)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Recomendados/Orfandad.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Orfandad</h2>
+                                <h3 class="Aut">Karina Sosa</h3>
+                                <p class="Price">$ 269</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Orfandad',269)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Recomendados/La austeridad mata.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">La austeridad mata</h2>
+                                <h3 class="Aut">Nayeli Roldán Sánchez</h3>
+                                <p class="Price">$ 298</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('La austeridad mata',298)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Recomendados/Yo nunca vi television.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Yo nunca vi televisión</h2>
+                                <h3 class="Aut">31 minutos</h3>
+                                <p class="Price">$ 138</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Yo nunca vi television',138)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Recomendados/El cerebro masculino.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">El cerebro masculino</h2>
+                                <h3 class="Aut">Louann Brizendine</h3>
+                                <p class="Price">$ 529</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('El cerebro masculino',529)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="slide-btn right" onclick="slideRight(0)">&#10095;</button>
+
+        </article> <br>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="carrito.js"></script>
+    <script src="Alert.js"></script>
+    <script src="Javascrip.js"></script>
+    </div>
+</body>
+
+</html>

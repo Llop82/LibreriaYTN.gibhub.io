@@ -1,0 +1,858 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jose Manuel Hernandez Guevara">
+    <link rel="icon" href="Imagenes/favicon.ico" type="image/x-icon">
+    <title>Cómics</title>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="Carr">
+            <a href="0. Index.html"><img src="Imagenes/Regresar.jpg" class="Ic"></a>
+            <a href="Carrito.html"><img src="Imagenes/Carrito.jpg" class="Ic"></a>
+        </div>
+        <div class="Catg">
+            <h1 class="Titulos">Cómics</h1>
+        </div>
+    </header>
+
+    <article>
+        <!--Novela gráfica-->
+        <h1 class="Ti">Novela gráfica</h1>
+        <br>
+
+        <div class="slider-container" data-index="0">
+            <button class="slide-btn left" onclick="slideLeft(0)">&#10094;</button>
+            <div class="slider">
+                <div class="slide-track">
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Novela grafica/En pocas palabras.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">En pocas palabras</h2>
+                            <h3 class="Aut">Lisa Brown</h3>
+                            <p class="Price">$ 195</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('En pocas palabras', 195)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Novela grafica/MARVEL PRIDE.JPG" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">MARVEL PRIDE</h2>
+                            <h3 class="Aut">Alyssa Wong</h3>
+                            <p class="Price">$ 319</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('MARVEL PRIDE', 319)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Novela grafica/VANITAS NO CARTE N.2.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">VANITAS NO CARTE N.2</h2>
+                            <h3 class="Aut">JUN MOCHIZUKI</h3>
+                            <p class="Price">$ 159</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('VANITAS NO CARTE N.2', 159)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Novela grafica/THE KILLER INSIDE N.2.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">THE KILLER INSIDE N.2</h2>
+                            <h3 class="Aut">Hajime Inoryu</h3>
+                            <p class="Price">$ 149</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('THE KILLER INSIDE N.2', 149)">Añadir
+                                al carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Novela grafica/Dandadan N.5.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Dandadan N.5</h2>
+                            <h3 class="Aut">Yukinobu Tatsu</h3>
+                            <p class="Price">$ 159</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Dandadan N.5', 159)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Novela grafica/El hombre de negro.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">El hombre de negro</h2>
+                            <h3 class="Aut">Helio Flores</h3>
+                            <p class="Price">$ 495</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('El hombre de negro', 495)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Novela grafica/La princesa y el sándwich de queso.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">La princesa y el sándwich de queso</h2>
+                            <h3 class="Aut">Deya Muniz</h3>
+                            <p class="Price">$ 339</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito"
+                                onclick="addToCart('La princesa y el sándwich de queso', 339)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Novela grafica/Lo que tu biblioteca dice de ti.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Lo que tu biblioteca dice de ti</h2>
+                            <h3 class="Aut">Grant Snider</h3>
+                            <p class="Price">$ 549</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Lo que tu biblioteca dice de ti', 549)">Añadir
+                                al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Novela grafica/QUINTILLIZAS N. 9.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">QUINTILLIZAS N. 9</h2>
+                            <h3 class="Aut">NEGI HARUBA</h3>
+                            <p class="Price">$ 129</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('QUINTILLIZAS N. 9', 129)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Novela grafica/El lejano país de los estanques.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">El lejano país de los estanques</h2>
+                            <h3 class="Aut">Rodolfo SantulloRodolfo Santullo</h3>
+                            <p class="Price">$ 438</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('El lejano país de los estanques', 438)">Añadir
+                                al carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Novela grafica/Five Nights At Freddys. Los otros animatrónicos.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Five Nights At Freddys. Los otros animatrónicos</h2>
+                            <h3 class="Aut">Scott Cawthon</h3>
+                            <p class="Price">$ 299</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito"
+                                onclick="addToCart('Five Nights At Freddys. Los otros animatrónicos', 299)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Novela grafica/Five nights at Freddys Escalofríos de Fazbear 3.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Five nights at Freddys Escalofríos de Fazbear 3 </h2>
+                            <h3 class="Aut">Scott Cawthon</h3>
+                            <p class="Price">$ 299</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito"
+                                onclick="addToCart('Five nights at Freddys Escalofríos de Fazbear 3 ', 299)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Novela grafica/Five nights at Freddys Escalofríos de Fazbear 2.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Five nights at Freddys Escalofríos de Fazbear 2 </h2>
+                            <h3 class="Aut">Scott Cawthon</h3>
+                            <p class="Price">$ 319</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito"
+                                onclick="addToCart('Five nights at Freddys Escalofríos de Fazbear 2 ', 319)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Novela grafica/Five nights at Freddys Escalofríos de Fazbear 1.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Five nights at Freddys Escalofríos de Fazbear 1</h2>
+                            <h3 class="Aut">Scott Cawhton</h3>
+                            <p class="Price">$ 319</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito"
+                                onclick="addToCart('Five nights at Freddys Escalofríos de Fazbear 1', 319)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Novela grafica/De Yakuza a Amo de Casa N.1.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">De Yakuza a Amo de Casa N.1</h2>
+                            <h3 class="Aut">Kousuke Oono</h3>
+                            <p class="Price">$ 149</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('De Yakuza a Amo de Casa N.1', 149)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="slide-btn right" onclick="slideRight(0)">&#10095;</button>
+        </div>
+    </article>
+    <br>
+    <article>
+        <!--Ilustrados-->
+        <h1 class="Ti">Ilustrados</h1>
+        <br>
+
+        <div class="slider-container" data-index="1">
+            <button class="slide-btn left" onclick="slideLeft(1)">&#10094;</button>
+            <div class="slider">
+                <div class="slide-track">
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Ilustrados/La leyenda de los amigos.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">La leyenda de los amigos.</h2>
+                            <h3 class="Aut">Lee Gee Eun</h3>
+                            <p class="Price">$ 395</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('La leyenda de los amigos.', 395)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Ilustrados/Cosas que no hacen los mayores.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Cosas que no hacen los mayores</h2>
+                            <h3 class="Aut">Davide Cali</h3>
+                            <p class="Price">$ 530</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Cosas que no hacen los mayores', 530)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Ilustrados/Cuentos de brujas.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Cuentos de brujas</h2>
+                            <h3 class="Aut">Susaeta</h3>
+                            <p class="Price">$ 230</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Cuentos de brujas', 230)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Ilustrados/ALICIA EN EL PAIS DE LAS MARAVILLAS.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">ALICIA EN EL PAIS DE LAS MARAVILLAS</h2>
+                            <h3 class="Aut">Lewis Carroll</h3>
+                            <p class="Price">$ 742</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito"
+                                onclick="addToCart('ALICIA EN EL PAIS DE LAS MARAVILLAS', 742)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Ilustrados/EL DESTINO DE FAUSTO.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">EL DESTINO DE FAUSTO</h2>
+                            <h3 class="Aut">Oliver Jeffers</h3>
+                            <p class="Price">$ 220</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('EL DESTINO DE FAUSTO', 220)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Ilustrados/QUE ABSURDO.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">QUE ABSURDO</h2>
+                            <h3 class="Aut">Lori Montersen</h3>
+                            <p class="Price">$ 470</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('QUE ABSURDO', 470)">Añadir
+                                al carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Ilustrados/SOLO EN CASA.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">SOLO EN CASA</h2>
+                            <h3 class="Aut">NAOKO MACHIDA</h3>
+                            <p class="Price">$ 299</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('SOLO EN CASA', 299)">Añadir al carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Ilustrados/Bambi.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Bambi</h2>
+                            <h3 class="Aut">Felix Salten</h3>
+                            <p class="Price">$ 850</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Bambi', 850)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Ilustrados/Cómo no temerle al miedo.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">¿Cómo no temerle al miedo?</h2>
+                            <h3 class="Aut">Tere Attie</h3>
+                            <p class="Price">$ 250</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('¿Cómo no temerle al miedo?', 250)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Ilustrados/Hay un fantasma en esta casa.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Hay un fantasma en esta casa</h2>
+                            <h3 class="Aut">Oliver Jeffers</h3>
+                            <p class="Price">$ 380</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Hay un fantasma en esta casa', 380)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Ilustrados/MARRON.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">MARRON</h2>
+                            <h3 class="Aut">Mar Ferrero</h3>
+                            <p class="Price">$ 300</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('MARRON', 300)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Ilustrados/UNA CENA MONSTRUOSA.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">UNA CENA MONSTRUOSA</h2>
+                            <h3 class="Aut">Martí Meritxell</h3>
+                            <p class="Price">$ 595</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('UNA CENA MONSTRUOSA',595)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Ilustrados/Gigante a la orilla.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Gigante a la orilla</h2>
+                            <h3 class="Aut">Alfonso Ochoa</h3>
+                            <p class="Price">$ 330</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Gigante a la orilla', 330)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Ilustrados/DAME UN ABRAZO.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">DAME UN ABRAZO</h2>
+                            <h3 class="Aut">Daniele Gobbetti</h3>
+                            <p class="Price">$ 379</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('DAME UN ABRAZO', 379)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Ilustrados/EL LOBO MIEDOSO.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">EL LOBO MIEDOSO</h2>
+                            <h3 class="Aut">Giuliana Pesavento</h3>
+                            <p class="Price">$ 399</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('EL LOBO MIEDOSO', 399)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="slide-btn right" onclick="slideRight(1)">&#10095;</button>
+        </div>
+    </article>
+    <article>
+        <!--Mangas-->
+        <h1 class="Ti">Manga</h1>
+        <br>
+        <div class="slider-container" data-index="0">
+            <button class="slide-btn left" onclick="slideLeft(2)">&#10094;</button>
+            <div class="slider">
+                <div class="slide-track">
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Mangas/Ranger Reject 6.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Ranger Reject 6</h2>
+                            <h3 class="Aut">Negi Haruba</h3>
+                            <p class="Price">$ 189 </p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Ranger Reject 6', 189)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Mangas/El chico y el perro.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">El chico y el perro</h2>
+                            <h3 class="Aut">Seishu Hase</h3>
+                            <p class="Price">$ 189</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('El chico y el perro', 189)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Mangas/JOY 1.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">JOY 1</h2>
+                            <h3 class="Aut">Etsuko</h3>
+                            <p class="Price">$ 189</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('JOY 1', 189)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Mangas/Shikimori.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Shikimori</h2>
+                            <h3 class="Aut">Keigo Maki</h3>
+                            <p class="Price">$ 189</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Shikimori', 249)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Mangas/Jojo´s Bizarre Steell Ball Run N.3.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Jojo´s Bizarre Steell Ball Run N.3</h2>
+                            <h3 class="Aut">Hirohiko Araki</h3>
+                            <p class="Price">$ 189</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito"
+                                onclick="addToCart('Jojo´s Bizarre Steell Ball Run N.3', 189)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Mangas/ONE PIECE N.97.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">ONE PIECE N.97</h2>
+                            <h3 class="Aut">EIICHIRO ODA</h3>
+                            <p class="Price">$ 139</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('ONE PIECE N.97', 139)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Mangas/KOMI CANT COMMUNICATE N. 4.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">KOMI CANT COMMUNICATE N. 4</h2>
+                            <h3 class="Aut">TOMOHITO ODA</h3>
+                            <p class="Price">$ 139</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('KOMI CANT COMMUNICATE N. 4', 139)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Mangas/KIETA HATSUKOI.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">KIETA HATSUKOI</h2>
+                            <h3 class="Aut">ARUKO</h3>
+                            <p class="Price">$ 149</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('KIETA HATSUKOI', 149)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Mangas/CHAIN SAW MAN N.12.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">CHAIN SAW MAN N.12</h2>
+                            <h3 class="Aut">TATSUKI FUJIMOTO</h3>
+                            <p class="Price">$ 149</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('CHAIN SAW MAN N.12', 149)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Mangas/NARUTO GOLD EDITION N.7.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">NARUTO GOLD EDITION N.7</h2>
+                            <h3 class="Aut">MASASHI KISHIMOTO</h3>
+                            <p class="Price">$ 259</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('NARUTO GOLD EDITION N.7', 259)">Añadir
+                                al carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Mangas/Blue Period N.13.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Blue Period N.13</h2>
+                            <h3 class="Aut">Tsubasa Yamaguchi</h3>
+                            <p class="Price">$ 159</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Blue Period N.13',159)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Mangas/Rent a Girlfriend N.25.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Rent a Girlfriend N.25</h2>
+                            <h3 class="Aut">Reiji Miyajima</h3>
+                            <p class="Price">$149</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Rent a Girlfriend N.25', 149)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Mangas/MUSHISHI N.1.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">MUSHISHI N.1</h2>
+                            <h3 class="Aut">YUKI URUSHIBARA</h3>
+                            <p class="Price">$ 209</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('MUSHISHI N.1', 209)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Mangas/Dragon Ball Super N.20.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Dragon Ball Super N.20</h2>
+                            <h3 class="Aut">Akira Toriyama</h3>
+                            <p class="Price">$ 159</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Dragon Ball Super N.20', 159)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Comics/Mangas/El canto de la noche N.4.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">El canto de la noche N.4</h2>
+                            <h3 class="Aut">Kotoyama</h3>
+                            <p class="Price">$ 159</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('El canto de la noche N.4', 159)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="slide-btn right" onclick="slideRight(2)">&#10095;</button>
+        </div>
+    </article> <br>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="carrito.js"></script>
+    <script src="Alert.js"></script>
+    <script src="Javascrip.js"></script>
+
+
+
+</body>
+
+</html>

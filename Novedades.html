@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Micaelo">
+    <title>Novedades</title>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="Catg">
+            <h1 class="Titulos">Novedades</h1>
+        </div>
+    </header>
+    <section>
+        <article>
+            <!--Novedades-->
+            <h1 class="Ti">Novedades</h1>
+            <div class="slider-container" data-index="0">
+                <button class="slide-btn left" onclick="slideLeft(0)">&#10094;</button>
+                <div class="slider">
+                    <div class="slide-track">
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Novedades/El lamento de elektra.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">El lamento de elektra</h2>
+                                <h3 class="Aut">Hanah Song</h3>
+                                <p class="Price">$ 498</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('El lamento de elektra',498)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Novedades/Si este no es mi hogar no tengo un hogar.jpg"
+                                    class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Si este no es mi hogar, no tengo un hogar</h2>
+                                <h3 class="Aut">Lorrie Moore</h3>
+                                <p class="Price">$ 290</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito"
+                                    onclick="addToCart('Si este no es mi hogar no tengo un hogar',290)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Novedades/Heaven.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Heaven</h2>
+                                <h3 class="Aut">Mieko Kawai</h3>
+                                <p class="Price">$ 448</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Heaven',448)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Novedades/Dias salvajes.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Dias salvajes</h2>
+                                <h3 class="Aut">David Jimenez</h3>
+                                <p class="Price">$ 429</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Dias salvajes',429)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Novedades/La cruel mirada de los dioses.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">La cruel mirada de los dioses</h2>
+                                <h3 class="Aut">Molly X.</h3>
+                                <p class="Price">$ 429</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('La cruel mirada de los dioses',429)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Novedades/El viento del norte.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">El viento del norte</h2>
+                                <h3 class="Aut">Alexandra Warwick</h3>
+                                <p class="Price">$ 399</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('El viento del norte',399)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Novedades/El cazador.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">El cazador</h2>
+                                <h3 class="Aut">Tana French </h3>
+                                <p class="Price">$ 479</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('El cazador',479)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Novedades/No pierdas la ezperanza.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">No pierdas la ezperanza</h2>
+                                <h3 class="Aut">Dora Reym</h3>
+                                <p class="Price">$ 298</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('No pierdas la ezperanza',298)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Novedades/Tu puedes sanar tu vida.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Tu puedes sanar tu vida</h2>
+                                <h3 class="Aut">Louse Lahy</h3>
+                                <p class="Price">$ 328</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Tu puedes sanar tu vida',328)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Novedades/La palabra exacta.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">La palabra exacta</h2>
+                                <h3 class="Aut">Ángel Velasco</h3>
+                                <p class="Price">$ 348</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('La palabra exacta',348)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Novedades/Esta herida no me pertenece.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Esta herida no me pertenece</h2>
+                                <h3 class="Aut">Dra. Mariel Elaina</h3>
+                                <p class="Price">$ 348</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Esta herida no me pertenece',348)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Novedades/El beso del colibri.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">El beso del colibri</h2>
+                                <h3 class="Aut">Manuel Pinomontado</h3>
+                                <p class="Price">$ 529</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('El beso del colibri',529)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Novedades/Campeonas.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Campeonas</h2>
+                                <h3 class="Aut">Xochitl Galvez</h3>
+                                <p class="Price">$ 399</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Campeonas',399)">Añadir al
+                                    carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Novedades/Optimiza tu metabolismo.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">Optimiza tu metabolismo</h2>
+                                <h3 class="Aut">Isabel Belau</h3>
+                                <p class="Price">$ 449</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('Optimiza tu metabolismo',449)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                        <div class="Items">
+                            <figure>
+                                <img src="Imagenes/Libros/Novedades/El jardin de las mariposas.jpg" class="Producto">
+                            </figure>
+                            <div class="Info">
+                                <h2 class="Tit">El jardin de las mariposas</h2>
+                                <h3 class="Aut">Dot Hutchison</h3>
+                                <p class="Price">$ 368</p>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="descripcion()">Descripción</button>
+                            </div>
+                            <div class="Car">
+                                <button class="Carrito" onclick="addToCart('El jardin de las mariposas',368)">Añadir
+                                    al carrito</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button class="slide-btn right" onclick="slideRight(0)">&#10095;</button>
+
+        </article> <br>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="carrito.js"></script>
+    <script src="Alert.js"></script>
+    <script src="Javascrip.js"></script>
+    </div>
+</body>
+
+</html>

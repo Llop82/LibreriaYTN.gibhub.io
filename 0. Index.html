@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Luciano Herrera Ricardo and Hernández Guevara José Manuel">
+    <title>Librerias YTN</title>
+    <link rel="icon" href="Imagenes/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+
+<body>
+    <!--Logo-->
+    <header class="header">
+        <!--Menu-->
+        <div class="Menu">
+            <button class="boton" id="toggleButton" onclick="toggleMenu()"><img class="tamaño2"
+                    src="Imagenes/3 rayas.png" alt=""></button>
+            <div class="nav" id="navMenu">
+                <button class="boton" onclick="hideMenu()"><img class="tamaño1" src="Imagenes/X.png" alt=""></button>
+                <ul class="menu-vertical">
+                    <li>
+                        <a href=""> Libros </a>
+                        <ul class="submenu-vertical">
+                            <li><a href="Recomendados.html">Recomendado </a></li>
+                            <li><a href="9. Lo más leido.html">Lo más leído </a></li>
+                            <li>
+                                <a href="#"> Categorías </a>
+                                <ul class="submenu-submenu-vertical">
+                                    <li><a href="1. Narrativa.html">Narrativa </a></li>
+                                    <li><a href="2. Consulta.html">Consulta </a></li>
+                                    <li><a href="3. Divulgativos.html">Divulgativos </a></li>
+                                    <li><a href="4. Tecnicos.html">Técnicos </a></li>
+                                    <li><a href="5. Practicos.html">Prácticos </a></li>
+                                    <li><a href="6. Infantiles.html">Infantiles </a></li>
+                                    <li><a href="7. Literatura.html">Literatura </a></li>
+                                    <li><a href="8. Comics.html">Cómics </a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="Novedades.html">Novedades </a></li>
+                    <li><a href="Todos.html">Todos los productos </a></li>
+                    <br>
+                    <hr>
+                    <br>
+                    <li><a href="Acerca de.html">Acerca de </a></li>
+                    <li><a href="Quienes somos.html">¿Quiénes somos? </a></li>
+                </ul>
+                </li>
+                </ul>,
+            </div>
+            <!--Carrito-->
+            <a href="Carrito.html" class=" Der"><img src="Imagenes/Carrito.jpg" class="Ic"></a>
+        </div><br>
+        <div class="Logo"><img src="Imagenes/Logo.jpg" class="Lg"></div>
+    </header>
+
+    <br><br><br>
+    <section>
+        <!--Buscador-->
+        <article class="Body1">
+            <div class="Buscador">
+                <form class="Buscador" action="resultados.html" method="get">
+                    <input class="Bsc" type="text" name="q" placeholder="Buscar ...">
+                    <button class="Lupa">
+                        <img src="Imagenes/Lupa.png" class="Lp">
+                    </button>
+                </form>
+            </div>
+        </article>
+        <br><br><br>
+        <!--Categorias-->
+        <article class="Body">
+            <div class="Cat">
+                <br>
+                <h1 class="Titulos">CATEGORIAS</h1>
+                <br>
+            </div>
+        </article>
+        <br><br>
+        <article class="Body">
+            <div class="Cont">
+                <a href="1. Narrativa.html" class="Cate">NARRATIVA</a>
+                <a href="2. Consulta.html" class="Cate">CONSULTA</a>
+                <a href="3. Divulgativos.html" class="Cate">DIVULGATIVOS</a>
+            </div>
+        </article>
+        <article class="Body">
+            <div class="Cont">
+                <a href="4. Tecnicos.html" class="Cate">TÉCNICOS</a>
+                <a href="5. Practicos.html" class="Cate">PRÁCTICOS</a>
+                <a href="6. Infantiles.html" class="Cate">INFANTILES</a>
+            </div>
+        </article>
+        <article class="Body">
+            <div class="Cont">
+                <a href="7. Literatura.html" class="Cate">LITERATURA</a>
+                <a href="8. Comics.html" class="Cate">CÓMICS</a>
+                <a href="9. Lo más leido.html" class="Cate">LO MÁS LEÍDO</a>
+            </div>
+        </article>
+    </section><br><br>
+    <footer>
+        <div class="Esp">
+            <p class="Con">Contacto</p>
+            <div>
+                <p class="Con">Síguenos</p>
+            </div>
+        </div>
+        <div class="Esp">
+            <p class="Cor">libreriaytn@gmail.com</p>
+            <div>
+                <a href="https://www.facebook.com/profile.php?id=61561284291026&mibextid=ZbWKwL"><img
+                        src="Imagenes/Facebok.jpg" class="RS"></a>
+                <a href="https://www.instagram.com/libreria_ytn?igsh=eGFkd2s1YzNidWZr"><img src="Imagenes/Instagram.jpg"
+                        class="RS"></a>
+                <a href="https://x.com/Libreria_YTN?t=AucIjLA7ZsAJpdfvzluopQ&s=09"><img src="Imagenes/Twither.jpg"
+                        class="RS"></a>
+            </div>
+        </div>
+        <div class="Body">
+            <p class="Co">Todos los derechos reservados</p>
+        </div>
+    </footer>
+    <script src="carrito.js"></script>
+    <script src="Javascrip.js"></script>
+</body>
+
+</html>

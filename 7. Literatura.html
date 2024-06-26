@@ -1,0 +1,851 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Jose Manuel Hernandez Guevara">
+    <link rel="icon" href="Imagenes/favicon.ico" type="image/x-icon">
+    <title>Literatura</title>
+    <link rel="stylesheet" href="Estilo.css">
+</head>
+
+<body>
+    <header>
+        <div class="Carr">
+            <a href="0. Index.html"><img src="Imagenes/Regresar.jpg" class="Ic"></a>
+            <a href="Carrito.html"><img src="Imagenes/Carrito.jpg" class="Ic"></a>
+        </div>
+        <div class="Catg">
+            <h1 class="Titulos">Literatura</h1>
+        </div>
+    </header>
+
+    <article>
+        <!--Literatura universal-->
+        <h1 class="Ti">Literatura universal</h1>
+        <br>
+
+        <div class="slider-container" data-index="0">
+            <button class="slide-btn left" onclick="slideLeft(0)">&#10094;</button>
+            <div class="slider">
+                <div class="slide-track">
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Universal/Mi lucha.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Mi lucha</h2>
+                            <h3 class="Aut">Adolf Hitler</h3>
+                            <p class="Price">$ 450</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Mi lucha', 450)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Universal/LA IDENTIDAD.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">LA IDENTIDAD</h2>
+                            <h3 class="Aut">Milan Kundera</h3>
+                            <p class="Price">$ 248</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('LA IDENTIDAD', 248)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Universal/LA ISLA DEL TESORO.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">LA ISLA DEL TESORO</h2>
+                            <h3 class="Aut">Robert Louis Stevenson</h3>
+                            <p class="Price">$ 100</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('LA ISLA DEL TESORO', 100)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Universal/SUMISION.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">SUMISION</h2>
+                            <h3 class="Aut">Michel Houellebecq</h3>
+                            <p class="Price">$ 395</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('SUMISION', 395)">Añadir
+                                al carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Universal/Divina Comedia.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Divina Comedia</h2>
+                            <h3 class="Aut">Dante Alighieri</h3>
+                            <p class="Price">$ 1,646</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Divina Comedia', 1646)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Universal/El conde de Montecristo.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">El conde de Montecristo</h2>
+                            <h3 class="Aut">Alejandro Dumas</h3>
+                            <p class="Price">$ 329</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('El conde de Montecristo', 329)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Universal/EL CODIGO DA VINCI.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">EL CODIGO DA VINCI</h2>
+                            <h3 class="Aut">Dan Brown</h3>
+                            <p class="Price">$ 418</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('EL CODIGO DA VINCI', 418)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Universal/Corazón, diario de un niño.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Corazón, diario de un niño</h2>
+                            <h3 class="Aut">Edmondo de Amicis</h3>
+                            <p class="Price">$ 215</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Corazón, diario de un niño', 215)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Universal/Rebelión en la granja.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Rebelión en la granja</h2>
+                            <h3 class="Aut">George Orwell</h3>
+                            <p class="Price">$ 377</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Rebelión en la granja', 377)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Universal/LA INMORTALIDAD.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">LA INMORTALIDAD</h2>
+                            <h3 class="Aut"> Milan Kundera</h3>
+                            <p class="Price">$ 388</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('LA INMORTALIDAD', 388)">Añadir
+                                al carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Universal/EL LIBRO DE LA RISA Y EL OLVIDO.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">EL LIBRO DE LA RISA Y EL OLVIDO</h2>
+                            <h3 class="Aut">Milan Kundera</h3>
+                            <p class="Price">$ 498</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('EL LIBRO DE LA RISA Y EL OLVIDO', 498)">Añadir
+                                al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Universal/CUIDA DE MI.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">CUIDA DE MI</h2>
+                            <h3 class="Aut">Daniela Sacerdoti</h3>
+                            <p class="Price">$ 149</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('CUIDA DE MI', 149)">Añadir al carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Universal/Crímenes exquisitos.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Crímenes exquisitos</h2>
+                            <h3 class="Aut">Vicente Garrido</h3>
+                            <p class="Price">$ 399</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Crímenes exquisitos', 399)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Universal/El juego de los deseos.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">El juego de los deseos</h2>
+                            <h3 class="Aut">Meg Shaffer</h3>
+                            <p class="Price">$ 335</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('El juego de los deseos', 335)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Universal/Bruma roja.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Bruma roja</h2>
+                            <h3 class="Aut">Lucía G. Sobrado</h3>
+                            <p class="Price">$ 499</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Bruma roja', 499)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="slide-btn right" onclick="slideRight(0)">&#10095;</button>
+        </div>
+    </article>
+    <br>
+    <article>
+        <!--Literatura Mexicana-->
+        <h1 class="Ti">Literatura Mexicana</h1>
+        <br>
+
+        <div class="slider-container" data-index="1">
+            <button class="slide-btn left" onclick="slideLeft(1)">&#10094;</button>
+            <div class="slider">
+                <div class="slide-track">
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Mexicana/El huésped.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">El huésped</h2>
+                            <h3 class="Aut">Guadalupe Nettel</h3>
+                            <p class="Price">$ 320</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('El huésped', 320)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Mexicana/Madres y perros.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Madres y perros</h2>
+                            <h3 class="Aut">Fabio Morábito</h3>
+                            <p class="Price">$ 310</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Madres y perros',310 )">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Mexicana/Ambrosía.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Ambrosía</h2>
+                            <h3 class="Aut">Valeria Duval</h3>
+                            <p class="Price">$ 495</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Ambrosía', 495)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Mexicana/Lengua dormida.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Lengua dormida</h2>
+                            <h3 class="Aut">Franco Félix</h3>
+                            <p class="Price">$ 325</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Lengua dormida', 325)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Mexicana/Noticias del imperio.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Noticias del imperio</h2>
+                            <h3 class="Aut">Fernando del Paso</h3>
+                            <p class="Price">$ 375</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Noticias del imperio', 375)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Mexicana/Miel sobre hojuelas.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Miel sobre hojuelas</h2>
+                            <h3 class="Aut">Gabriela Villazón Weissgerber</h3>
+                            <p class="Price">$ 230</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Miel sobre hojuelas', 230)">Añadir
+                                al carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Mexicana/Muerte súbita.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Muerte súbita</h2>
+                            <h3 class="Aut">Álvaro Enrigue</h3>
+                            <p class="Price">$ 255</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Muerte súbita', 255)">Añadir al carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Mexicana/Primero las damas.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Primero las damas</h2>
+                            <h3 class="Aut">Guadalupe Loaeza</h3>
+                            <p class="Price">$ 320</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Primero las damas', 320)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Mexicana/Las soldaderas.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Las soldaderas</h2>
+                            <h3 class="Aut"> Sofía Guadarrama Collado</h3>
+                            <p class="Price">$ 399</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Las soldaderas', 399)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Mexicana/Hacia el Horizonte.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Hacia el Horizonte</h2>
+                            <h3 class="Aut">Elisabeth Almegard</h3>
+                            <p class="Price">$ 280</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Hacia el Horizonte', 280)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Mexicana/Placeres ocultos.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Placeres ocultos</h2>
+                            <h3 class="Aut">Martha Carrillo</h3>
+                            <p class="Price">$ 289</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Placeres ocultos', 289)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Mexicana/Éste que ves.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Éste que ves</h2>
+                            <h3 class="Aut">Xavier Velasco</h3>
+                            <p class="Price">$ 269</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Éste que ves',269)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Mexicana/La guerra del unicornio.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">La guerra del unicornio</h2>
+                            <h3 class="Aut">Angelina Muñiz-Huberman</h3>
+                            <p class="Price">$ 405</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('La guerra del unicornio', 405)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Mexicana/Ábaco de granizo.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Ábaco de granizo</h2>
+                            <h3 class="Aut">Ernesto Lumbreras</h3>
+                            <p class="Price">$ 218</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Ábaco de granizo', 218)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/Mexicana/El Don del Diablo.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">El Don del Diablo</h2>
+                            <h3 class="Aut">Omar Delgado</h3>
+                            <p class="Price">$ 234</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('El Don del Diablo', 234)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="slide-btn right" onclick="slideRight(1)">&#10095;</button>
+        </div>
+    </article>
+    <article>
+        <!--Literatura iberoamericana-->
+        <h1 class="Ti">Literatura iberoamericana</h1>
+        <br>
+        <div class="slider-container" data-index="0">
+            <button class="slide-btn left" onclick="slideLeft(2)">&#10094;</button>
+            <div class="slider">
+                <div class="slide-track">
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/iberoamericana/EL GRAN GENOCIDIO.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">EL GRAN GENOCIDIO</h2>
+                            <h3 class="Aut">Marco T. Robayo</h3>
+                            <p class="Price">$ 319 </p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('EL GRAN GENOCIDIO', 319)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/iberoamericana/DON QUIJOTE DE LA MANCHA.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">DON QUIJOTE DE LA MANCHA</h2>
+                            <h3 class="Aut">Miguel de Cervantes Saavedra</h3>
+                            <p class="Price">$ 3800</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('DON QUIJOTE DE LA MANCHA', 3800)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/iberoamericana/Cinta negra.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Cinta negra</h2>
+                            <h3 class="Aut">Eduardo Rabasa</h3>
+                            <p class="Price">$ 312</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Cinta negra', 312)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/iberoamericana/La prisión en invierno.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">La prisión en invierno</h2>
+                            <h3 class="Aut">Héctor Manjarrez</h3>
+                            <p class="Price">$ 249</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('La prisión en invierno', 249)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/iberoamericana/AGAPE SE PAGA.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">AGAPE SE PAGA</h2>
+                            <h3 class="Aut">Rodrigo Fresán</h3>
+                            <p class="Price">$ 340</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('AGAPE SE PAGA', 340)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/iberoamericana/El cuerpo en el que nací.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">El cuerpo en el que nací</h2>
+                            <h3 class="Aut">Guadalupe Nettel</h3>
+                            <p class="Price">$ 310</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('El cuerpo en el que nací', 310)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/iberoamericana/Marianela.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Marianela</h2>
+                            <h3 class="Aut">Martínez Roca</h3>
+                            <p class="Price">$ 69</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Marianela', 69)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/iberoamericana/El orden natural de las cosas.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">El orden natural de las cosas</h2>
+                            <h3 class="Aut">António Lobo Antunes</h3>
+                            <p class="Price">$ 334</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('El orden natural de las cosas', 334)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/iberoamericana/33 Razones para volver a verte.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">33 Razones para volver a verte</h2>
+                            <h3 class="Aut">Alice Kellen</h3>
+                            <p class="Price">$ 315</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('33 Razones para volver a verte', 315)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/iberoamericana/Yo, Julia.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Yo, Julia</h2>
+                            <h3 class="Aut">Santiago Posteguillo</h3>
+                            <p class="Price">$ 368</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Yo, Julia', 368)">Añadir
+                                al carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/iberoamericana/Cuando era divertido.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Cuando era divertido</h2>
+                            <h3 class="Aut">Eloy Moreno</h3>
+                            <p class="Price">$ 339</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Cuando era divertido', 339)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/iberoamericana/Estoy muerto y sigo gritando.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Estoy muerto y sigo gritando</h2>
+                            <h3 class="Aut">Emmanuel Morales</h3>
+                            <p class="Price">$280</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Estoy muerto y sigo gritando', 280)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/iberoamericana/Salvo mi corazón, todo está bien.jpg"
+                                class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">Salvo mi corazón, todo está bien</h2>
+                            <h3 class="Aut">Héctor Abad Faciolince</h3>
+                            <p class="Price">$ 469</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('Salvo mi corazón, todo está bien', 469)">Añadir
+                                al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/iberoamericana/El Alquimista.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">El Alquimista</h2>
+                            <h3 class="Aut">Paulo Coelho</h3>
+                            <p class="Price">$ 329</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="addToCart('El Alquimista', 329)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                    <div class="Items">
+                        <figure>
+                            <img src="Imagenes/Libros/Literatura/iberoamericana/La bajamar.jpg" class="Producto">
+                        </figure>
+                        <div class="Info">
+                            <h2 class="Tit">La bajamar</h2>
+                            <h3 class="Aut">Literatura Random House</h3>
+                            <p class="Price">$ 99</p>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito" onclick="Descripción()">Descripción</button>
+                        </div>
+                        <div class="Car">
+                            <button class="Carrito"
+                                onclick="addToCart('Five Nights At Freddys: Los ojos de plata', 99)">Añadir al
+                                carrito</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="slide-btn right" onclick="slideRight(2)">&#10095;</button>
+        </div>
+    </article> <br>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="carrito.js"></script>
+    <script src="Alert.js"></script>
+    <script src="Javascrip.js"></script>
+
+
+
+</body>
+
+</html>
